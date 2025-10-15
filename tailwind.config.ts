@@ -100,6 +100,24 @@ export default {
           "50%": {
             boxShadow: "0 0 16px hsl(var(--primary) / 0.25)"
           }
+        },
+        "breathe": {
+          "0%, 100%": {
+            transform: "scale(1)",
+            opacity: "1"
+          },
+          "50%": {
+            transform: "scale(1.005)",
+            opacity: "0.98"
+          }
+        },
+        "gentle-float": {
+          "0%, 100%": {
+            transform: "translateY(0px)"
+          },
+          "50%": {
+            transform: "translateY(-2px)"
+          }
         }
       },
       animation: {
@@ -107,6 +125,8 @@ export default {
         "accordion-up": "accordion-up 0.2s ease-out",
         "fade-in": "fade-in 0.6s ease-out",
         "glow": "glow 2s ease-in-out infinite",
+        "breathe": "breathe 4s ease-in-out infinite",
+        "gentle-float": "gentle-float 3s ease-in-out infinite",
       },
     },
   },

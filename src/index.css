@@ -8,41 +8,43 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 40 50% 96%;
-    --foreground: 30 25% 20%;
+    --background: 38 55% 95%;
+    --foreground: 25 30% 25%;
 
-    --card: 40 45% 98%;
-    --card-foreground: 30 25% 20%;
+    --card: 35 50% 97%;
+    --card-foreground: 25 30% 25%;
 
-    --popover: 40 45% 98%;
-    --popover-foreground: 30 25% 20%;
+    --popover: 35 50% 97%;
+    --popover-foreground: 25 30% 25%;
 
-    --primary: 30 35% 45%;
-    --primary-foreground: 40 50% 98%;
+    --primary: 22 40% 50%;
+    --primary-foreground: 35 50% 98%;
 
-    --secondary: 35 40% 88%;
-    --secondary-foreground: 30 25% 20%;
+    --secondary: 32 45% 86%;
+    --secondary-foreground: 25 30% 25%;
 
-    --muted: 40 30% 90%;
-    --muted-foreground: 30 15% 50%;
+    --muted: 35 35% 88%;
+    --muted-foreground: 28 20% 48%;
 
-    --accent: 25 45% 70%;
-    --accent-foreground: 30 25% 20%;
+    --accent: 20 50% 72%;
+    --accent-foreground: 25 30% 25%;
 
     --destructive: 0 70% 55%;
-    --destructive-foreground: 40 50% 98%;
+    --destructive-foreground: 35 50% 98%;
 
-    --border: 40 25% 85%;
-    --input: 40 30% 92%;
-    --ring: 30 35% 45%;
+    --border: 35 28% 82%;
+    --input: 35 35% 90%;
+    --ring: 22 40% 50%;
 
     --radius: 1rem;
     
-    /* Journl custom tokens */
-    --gradient-warm: linear-gradient(135deg, hsl(40 50% 96%) 0%, hsl(35 45% 92%) 50%, hsl(25 40% 90%) 100%);
-    --shadow-soft: 0 4px 16px -2px hsl(30 35% 45% / 0.08);
-    --shadow-warm: 0 2px 12px -2px hsl(30 35% 45% / 0.12);
+    /* Journl custom tokens - warmer palette */
+    --gradient-warm: linear-gradient(135deg, hsl(35 60% 94%) 0%, hsl(28 52% 88%) 40%, hsl(20 48% 85%) 100%);
+    --shadow-soft: 0 4px 20px -4px hsl(25 40% 40% / 0.1);
+    --shadow-warm: 0 4px 16px -2px hsl(22 45% 45% / 0.15);
+    --shadow-glow: 0 0 24px hsl(25 50% 70% / 0.2);
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-gentle: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
 
     --sidebar-background: 0 0% 98%;
 

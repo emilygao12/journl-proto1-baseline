@@ -36,21 +36,18 @@ const Login = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center px-4">
+    <div className="min-h-screen flex items-center justify-center px-4 animate-breathe">
       <div className="w-full max-w-md">
-        <div className="text-center mb-12 animate-fade-in">
-          <h1 className="text-5xl font-semibold text-foreground mb-2 tracking-tight">
+        <div className="text-center mb-12 animate-fade-in animate-gentle-float">
+          <h1 className="text-5xl font-semibold text-foreground mb-2 tracking-tight transition-all duration-500 hover:text-primary">
             Journl
           </h1>
-          <p className="text-muted-foreground text-sm">
-            Your thoughts are safe here.
-          </p>
         </div>
 
         <form onSubmit={handleSubmit} className="space-y-6">
           <div className="space-y-4">
             <div className="space-y-2">
-              <Label htmlFor="email" className="text-foreground font-medium">
+              <Label htmlFor="email" className="text-foreground font-medium transition-all duration-300">
                 Email
               </Label>
               <Input
@@ -59,13 +56,13 @@ const Login = () => {
                 placeholder="you@example.com"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                className="bg-card border-border focus:ring-primary shadow-[var(--shadow-soft)] transition-all"
+                className="bg-card border-border focus:ring-primary shadow-[var(--shadow-soft)] transition-all duration-300 focus:scale-[1.01] focus:shadow-[var(--shadow-warm)]"
                 disabled={isLoading}
               />
             </div>
 
             <div className="space-y-2">
-              <Label htmlFor="password" className="text-foreground font-medium">
+              <Label htmlFor="password" className="text-foreground font-medium transition-all duration-300">
                 Password
               </Label>
               <Input
@@ -74,7 +71,7 @@ const Login = () => {
                 placeholder="••••••••"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
-                className="bg-card border-border focus:ring-primary shadow-[var(--shadow-soft)] transition-all"
+                className="bg-card border-border focus:ring-primary shadow-[var(--shadow-soft)] transition-all duration-300 focus:scale-[1.01] focus:shadow-[var(--shadow-warm)]"
                 disabled={isLoading}
               />
             </div>
@@ -84,26 +81,22 @@ const Login = () => {
             type="submit"
             variant="journal"
             size="lg"
-            className="w-full rounded-full shadow-[var(--shadow-soft)]"
+            className="w-full rounded-full shadow-[var(--shadow-soft)] animate-fade-in"
             disabled={isLoading}
           >
             {isLoading ? "Opening your journal..." : "Continue"}
           </Button>
 
-          <div className="text-center">
+          <div className="text-center animate-fade-in">
             <button
               type="button"
-              className="text-sm text-muted-foreground hover:text-foreground transition-colors underline-offset-2 hover:underline"
+              className="text-sm text-muted-foreground hover:text-foreground transition-all duration-300 underline-offset-2 hover:underline hover:scale-105 inline-block"
               onClick={() => toast.info("Password reset coming soon")}
             >
               Forgot password?
             </button>
           </div>
         </form>
-
-        <p className="text-center text-xs text-muted-foreground mt-12 italic">
-          Your thoughts are safe here.
-        </p>
       </div>
     </div>
   );
