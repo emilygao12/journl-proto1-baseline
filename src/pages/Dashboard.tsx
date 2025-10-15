@@ -28,13 +28,9 @@ const Dashboard = () => {
 
         <div className="space-y-6">
           <Card className="p-8 bg-card shadow-[var(--shadow-soft)] border-border">
-            <h2 className="text-2xl font-medium text-foreground mb-4">
+            <h2 className="text-2xl font-medium text-foreground">
               Welcome to your journal
             </h2>
-            <p className="text-muted-foreground leading-relaxed">
-              This is your private space for reflection. Start writing your thoughts,
-              dreams, and experiences. Each entry is a step in your journey.
-            </p>
           </Card>
 
           <Card className="p-8 bg-card shadow-[var(--shadow-soft)] border-border">
