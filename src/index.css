@@ -8,41 +8,41 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 30 20% 94%;
-    --foreground: 25 30% 18%;
+    --background: 40 35% 95%;
+    --foreground: 30 25% 25%;
 
-    --card: 28 18% 96%;
-    --card-foreground: 25 30% 18%;
+    --card: 38 30% 97%;
+    --card-foreground: 30 25% 25%;
 
-    --popover: 28 18% 96%;
-    --popover-foreground: 25 30% 18%;
+    --popover: 38 30% 97%;
+    --popover-foreground: 30 25% 25%;
 
-    --primary: 20 40% 35%;
-    --primary-foreground: 30 15% 96%;
+    --primary: 28 45% 48%;
+    --primary-foreground: 40 20% 98%;
 
-    --secondary: 25 22% 82%;
-    --secondary-foreground: 25 30% 18%;
+    --secondary: 38 28% 86%;
+    --secondary-foreground: 30 25% 25%;
 
-    --muted: 28 15% 88%;
-    --muted-foreground: 25 20% 38%;
+    --muted: 40 22% 90%;
+    --muted-foreground: 32 18% 42%;
 
-    --accent: 22 35% 55%;
-    --accent-foreground: 25 30% 18%;
+    --accent: 35 40% 62%;
+    --accent-foreground: 30 25% 25%;
 
     --destructive: 0 65% 50%;
-    --destructive-foreground: 30 15% 96%;
+    --destructive-foreground: 40 20% 98%;
 
-    --border: 28 18% 82%;
-    --input: 28 15% 90%;
-    --ring: 20 40% 35%;
+    --border: 38 22% 85%;
+    --input: 40 20% 92%;
+    --ring: 28 45% 48%;
 
     --radius: 1rem;
     
-    /* Journl custom tokens - deep brown palette */
-    --gradient-warm: linear-gradient(135deg, hsl(30 20% 94%) 0%, hsl(26 22% 90%) 50%, hsl(22 25% 86%) 100%);
-    --shadow-soft: 0 4px 20px -4px hsl(20 30% 25% / 0.12);
-    --shadow-warm: 0 4px 16px -2px hsl(18 35% 30% / 0.16);
-    --shadow-glow: 0 0 24px hsl(22 40% 45% / 0.2);
+    /* Journl custom tokens - warm beige palette */
+    --gradient-warm: linear-gradient(135deg, hsl(42 35% 96%) 0%, hsl(38 32% 93%) 50%, hsl(35 28% 90%) 100%);
+    --shadow-soft: 0 4px 20px -4px hsl(30 28% 35% / 0.09);
+    --shadow-warm: 0 4px 16px -2px hsl(28 32% 40% / 0.13);
+    --shadow-glow: 0 0 24px hsl(35 38% 58% / 0.18);
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     --transition-gentle: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
 
