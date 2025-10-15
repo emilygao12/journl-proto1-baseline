@@ -8,41 +8,41 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 38 55% 95%;
-    --foreground: 25 30% 25%;
+    --background: 40 15% 96%;
+    --foreground: 30 15% 25%;
 
-    --card: 35 50% 97%;
-    --card-foreground: 25 30% 25%;
+    --card: 38 12% 97%;
+    --card-foreground: 30 15% 25%;
 
-    --popover: 35 50% 97%;
-    --popover-foreground: 25 30% 25%;
+    --popover: 38 12% 97%;
+    --popover-foreground: 30 15% 25%;
 
-    --primary: 22 40% 50%;
-    --primary-foreground: 35 50% 98%;
+    --primary: 35 25% 48%;
+    --primary-foreground: 40 10% 98%;
 
-    --secondary: 32 45% 86%;
-    --secondary-foreground: 25 30% 25%;
+    --secondary: 38 18% 88%;
+    --secondary-foreground: 30 15% 25%;
 
-    --muted: 35 35% 88%;
-    --muted-foreground: 28 20% 48%;
+    --muted: 40 12% 90%;
+    --muted-foreground: 35 10% 50%;
 
-    --accent: 20 50% 72%;
-    --accent-foreground: 25 30% 25%;
+    --accent: 38 20% 75%;
+    --accent-foreground: 30 15% 25%;
 
     --destructive: 0 70% 55%;
-    --destructive-foreground: 35 50% 98%;
+    --destructive-foreground: 40 10% 98%;
 
-    --border: 35 28% 82%;
-    --input: 35 35% 90%;
-    --ring: 22 40% 50%;
+    --border: 40 15% 85%;
+    --input: 40 12% 92%;
+    --ring: 35 25% 48%;
 
     --radius: 1rem;
     
-    /* Journl custom tokens - warmer palette */
-    --gradient-warm: linear-gradient(135deg, hsl(35 60% 94%) 0%, hsl(28 52% 88%) 40%, hsl(20 48% 85%) 100%);
-    --shadow-soft: 0 4px 20px -4px hsl(25 40% 40% / 0.1);
-    --shadow-warm: 0 4px 16px -2px hsl(22 45% 45% / 0.15);
-    --shadow-glow: 0 0 24px hsl(25 50% 70% / 0.2);
+    /* Journl custom tokens - beige palette */
+    --gradient-warm: linear-gradient(135deg, hsl(42 18% 95%) 0%, hsl(38 15% 92%) 40%, hsl(35 12% 89%) 100%);
+    --shadow-soft: 0 4px 20px -4px hsl(30 20% 40% / 0.08);
+    --shadow-warm: 0 4px 16px -2px hsl(35 18% 45% / 0.12);
+    --shadow-glow: 0 0 24px hsl(38 25% 70% / 0.15);
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     --transition-gentle: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
 
